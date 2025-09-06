@@ -4,7 +4,7 @@ set -e
 ### ─────────────── USER‑EDITABLE SECTION ───────────────
 PROJECT_DIR="$HOME/smartclean-stream"
 REPO_URL="https://github.com/beast91207/ngrokServicePi.git"  # <<< REPLACE WITH YOUR NEW REPO URL
-NGROK_AUTHTOKEN="5188TJ1YjNSmeJUFAVH8d_56Z2SKuTkopBRMCMtYGCK"  # <<< required
+NGROK_AUTHTOKEN="32EnZ0ePahSXfBeRO0RqEmRc3Ea_2spvm2kAZpzaSGzCeeLMb"  # <<< required
 LOCAL_PORT=8888                      # NGINX serves HLS on 8080
 ### ───────────────────────────────────
 
@@ -67,7 +67,7 @@ tunnels:
     stream:
       proto: http
       addr: 8888
-      domain: stallion-engaged-steadily.ngrok-free.app
+      domain: alexander-intromissive-tad.ngrok-free.app
     ssh:
       proto: tcp
       addr: 22
